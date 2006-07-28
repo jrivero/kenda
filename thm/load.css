@@ -1,0 +1,10 @@
+/* Kenda default */
+@import url("kenda-forms.css");
+@import url("kenda-basic.css");
+
+/* Complementos */
+@import url("iebugs.css");
+@import url("calendar.css");
+
+/* Aplicacion */
+@import url("app-general.css");

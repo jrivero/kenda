@@ -1,0 +1,48 @@
+/* CSS para la aplicacion */
+
+/* Mensaje de confirmacion de alerta */
+#alert_container {
+	/*position: absolute;*/
+	top: 0;
+	left: 0;	
+	width: 100%;	
+	height: 100%; 
+	background-image:url(img/alert_fd.png);
+	text-align:center;
+	font:12px/15px "Trebuchet MS", Arial, Verdana,sans-serif;
+	position: absolute;
+}
+#alert_box {
+	text-align:left;
+	margin:auto;
+	margin-top:200px;
+	width:327px;
+	height:153px;
+	background-image:url(img/alert_box.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+#alert_title { 
+	color:white; 
+	padding-top:20px; 
+	padding-left:30px; 
+	margin:0;
+	font:14px/15px "Trebuchet MS", Arial, Verdana,sans-serif;
+	font-weight:bold;
+}
+#alert_message {
+	height:60px; 
+	margin:12px 30px; 
+	color:white; 
+	margin-bottom:5px;
+	font:11px/15px "Trebuchet MS", Arial, Verdana,sans-serif;
+}
+#alert_inputs {
+	margin:0 30px; 
+	text-align:center;
+}
+#alert_input_ok, #alert_input_cancel { 
+	margin:5px; 
+	width:100px; 
+	font:11px/15px "Trebuchet MS", Arial, Verdana,sans-serif;
+}
