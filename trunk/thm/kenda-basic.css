@@ -1,0 +1,82 @@
+/* Standard Reset */
+* { font-size: 100.01%; margin: 0; padding: 0; }
+html { font-size: 62.5%; }
+body, form { font: 1.1em/1.2em Verdana, "Trebuchet MS", "Lucida Grande", "Bitstream Vera Sans", Arial, Helvetica, sans-serif; }
+li, dd, blockquote { margin-left: 1em; font-size: 1em; }
+fieldset { border: 0 solid; margin: .8em 0; }
+
+/* Initial CSS */
+html { min-width: 747px; height: 100% }
+body { color: #333; background: #fafafa url(img/bg-body.gif); text-align: center; margin: 0; padding: 1em 0; min-height: 101%; }
+h1, h2, h3, h4, h5, h6 { margin: .7em 0; }
+h1  { font-size: 1.8em; color: #77B277;  }
+h2  { font-size: 1.3em; color: #7BA2CB; padding: .4em; background: #EEF4FB; border-bottom: 1px solid #BFD0E3; }
+h3  { font-size: 1.3em; color: #b00; }
+h4  { font-size: 1.2em; color: #444; }
+
+a { color: #415974; text-decoration: none; }
+a:hover { color: #000; text-decoration: underline; }
+
+li,dd,dt { width: auto }
+ul,ol,dl { margin: 1em 1em 1em 2em }
+li { font-size: 1em; margin: 0.5em 0; line-height: 125% }
+li li { font-size: 1em; }
+
+#wrapper { text-align: left; width: 98%; min-width: 747px; max-width: 980px; margin: 0 auto; }
+.ow { border: 5px solid #E2F0CB; }
+.iw { border: 1px solid #A3B87E; background: #fff; }
+
+#header           { margin-bottom: 1em; height: 28px; background: #787878 url('img/bg-header.png') no-repeat right bottom; border-top: 3px solid #BCE27F; }
+#header h1        { float: left; margin: .5em 0 0 .5em; font: bold 1.2em/1.2em Verdana, "Trebuchet MS", "Lucida Grande", "Bitstream Vera Sans", Arial, Helvetica, sans-serif; color: #fff; letter-spacing: .05em; }
+#header ul        { float: right; margin: .7em 1.5em 0 0; }
+#header ul li     { display: inline; margin: 0 .4em; }
+#header ul li a   { padding: .2em; color: #fff; font-weight: bold; letter-spacing: 1px; }
+
+/*
+#acciones         { height: 24px; text-align: right; background: #fafafa; }
+#acciones ul      { float: right; margin: .5em 3em 0 0; }
+#acciones ul li   { display: inline; margin: 0 .4em; padding: 0; xborder-bottom: 3px solid #fff; }
+#acciones ul li a { padding: .2em; color: #777; font-weight: bold; letter-spacing: 1px; }
+*/
+
+#footer       { height: 2em; background: #fafafa; }
+#footer p     { padding: .4em .8em 0 0; text-align: right; color: #ccc; }
+
+#page { background: #fff; margin: .5em; }
+#page a { text-decoration: underline; }
+
+#breadcumb { float: left; font-size: 1em; color: #666; }
+#breadcumb a { color: #333; }
+#userinfo { float: right; }
+
+* html #content { display: inline; }
+#content { clear: both; }
+#content img { border: 0; vertical-align: middle; }
+#content table { clear: both; border-bottom: 1px solid #eee; }
+#content table th { text-align: left; border-bottom: 1px solid #BCE27F; padding: .2em 1em; }
+#content table td { border-bottom: 1px solid #eee; padding: .4em 0 .4em 1.2em; }
+
+span.notice { padding: 1em; background: #ffd; display: block; }
+p.tip { color: #666; padding: 1em; margin: 1em; background: #F5FFE5 url('img/tip.gif') no-repeat 99% 8px; display: block; border: 1px solid #E0FFAD; }
+p.error { padding: 1em; background: #fee; display: block; color: #C02B00; font-weight: bold; }
+#message { border: 1px solid #BCE27F; background: #E2F0CB; color: #787878; font-size: 1em; font-weight: bold; text-align: center; margin: 100px 30%; padding: 10px; }
+#message a { font-weight: normal; }
+#kenda_rpt { background: #fff; color: #666; }
+#kenda_rpt ul { list-style: none; margin: 0; }
+#kenda_rpt ul li li { padding: .4em 1em; background: #fafafa; display: block; }
+#kenda_rpt ul li.error li { margin: 4em; padding: 1em 1em 1em 4em; background: #fee url('img/error.gif') no-repeat 1em; color: #C02B00; border: 1px solid #FFEEEE; font-weight: bold; }
+#kenda_rpt ul li.error h2 { display: none; }
+
+
+#paginacion { margin: .4em; }
+span.detalles_paginacion { float: right; }
+.listado_paginas { float: left; }
+
+#opciones { margin: 1.2em 0; padding: .4em .6em; background: #fafafa; float: left; border: 1px solid #eee; }
+#leyenda_iconos { margin: 1.2em 0; float: right; text-align: right; line-height: 20px; color: #666; padding: 2px 0 4px 0; }
+#leyenda_iconos img { vertical-align: middle; }
+
+div.debug { background: #fff; text-align: left; padding: 3px; width: 97%; _width: 747px; margin: 0 auto 10px; max-width: 980px; }
+span.update { font: 1em verdana; margin: .6em 0; padding: 4px 0 4px 22px; color: #999; background: transparent url('img/loading.gif') no-repeat left ; }
+
+.both { clear: both; }

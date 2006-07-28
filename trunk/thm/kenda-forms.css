@@ -1,0 +1,36 @@
+/* Elementos */
+input, select, textarea {	font: 1em Verdana, "Trebuhet MS", "Lucida Grande", "Bitstream Vera Sans", Arial, Helvetica, sans-serif; background: #FBFBFB; border: 1px solid #ccc; }
+input, select { padding: .1em; }
+input:hover, select:hover, textarea:hover, input:focus, select:focus, textarea:focus { background: #fff; border: 1px solid #BCE27F; }
+form div { clear: both; display: block; /*height: expression('1%');*/ margin: 0; }
+form label { cursor: pointer; }
+form { margin: 1em 0; }
+input, select, textarea, form { font-size: 1em; }
+legend   { display: none; margin: 0 .2em .2em; color: #444; font-weight: bold; background: #ccc; }
+label {	width: 14em; float: left; padding: 0 7px; cursor: pointer; }
+div.date select { width:auto; }
+select.autoWidth { width:auto; }
+option { padding: 0 .3em; }
+textarea { width: 70%; height: 40px; }
+
+/* Botones */
+div.frmButtons { margin: 10px 0 0; text-align: center; background: #fafafa; }
+div.submit { text-align: center; margin: 2em 0; padding: .5em 0; background: #fafafa; border: 1px dotted #eee; }
+div.submit input { background: #666; color: #fff; border: 0; width: 7em; }
+input.submit { margin: 5px 0; padding: 4px 30px; color: #444; background: #eee; border-top: 1px solid #ddd; border-left: 1px solid #ddd; border-bottom: 1px solid #bbb; border-right: 1px solid #bbb; font-weight: bold; }
+input.submit:hover,input.submit:focus { border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; border-top: 1px solid #bbb; border-left: 1px solid #bbb; }
+
+/* AJAX */
+input.dynaInput { width: 100%; border: 2px solid #fc0; }
+textarea.dynaInput { width: 100%; border: 0; height: 100px; }
+
+img.progress {
+	vertical-align: middle;
+	padding: 0 10px;
+}
+
+/* AJAX: Edit-in-Place */
+.editable {
+	background-color: #ffffd3;
+	width: 100%;
+}

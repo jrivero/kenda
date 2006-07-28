@@ -1,0 +1,1 @@
+<?phpclass modelo{  function ver($_id) {		$post = new crud;			  return $post->find_by_id('bita_post',$_id);  }    function listar() {    $post = new crud;		$sql  = 'SELECT * FROM bita_post ORDER BY post_id DESC LIMIT 5';	  return $post->find_by_sql($sql);  }}?>
