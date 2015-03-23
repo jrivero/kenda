@@ -1,0 +1,3 @@
+Kenda es un framework modular orientado a objetos creado con el fin de ayudar a desarrolladores minimizando la complejidad de grandes desarrollos ofreciendo un patrón de diseño MVC bien estructurado y escalable que facilita la tarea de organizar y mantener el código, siguiendo siempre una filosofia de no duplicar código y reducir la programación al máximo.
+
+Para más información visita http://projectlab.es/kenda
